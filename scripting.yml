@@ -1,10 +1,10 @@
 name: First Git Workflow
 
 on:
-  push
+  push:
 
 jobs:
   hello:
-    runs-on: ubuntu latest
-  steps:
-    - run: echo "Hello. This is my first Git Workflow"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello. This is my first Git Workflow"
